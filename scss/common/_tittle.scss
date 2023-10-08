@@ -1,0 +1,32 @@
+.section__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 67px;
+  letter-spacing: 4%;
+  @media (max-width: 767px) {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
+.section__subtitle {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 4%;
+  margin-bottom: 60px;
+  color: $blue;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  @media (max-width: 767px) {
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 30px;
+    gap: 10px;
+    img {
+      width: 6px;
+      height: 6px;
+    }
+  }
+}

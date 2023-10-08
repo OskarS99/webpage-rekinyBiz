@@ -1,5 +1,5 @@
 @import '../variables';
-
+@import '../mixins';
 /* footer */
 .footer__wrapper {
   max-width: 1410px;
@@ -14,10 +14,10 @@
   }
   @media (max-width: 767px) {
     flex-direction: column;
-    margin: 0 15px;
-    padding: 40px 0 15px 0;
+    margin: 40px 15px 15px 15px;
   }
 }
+
 .firstContent {
   padding: 27px 0px 18px 90px;
   display: flex;
@@ -86,17 +86,7 @@
 }
 
 .button {
-  background-color: $blue;
-  color: white;
-  padding: 18px 40px;
-  margin-right: 15px;
-  border: none;
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 19px;
-  letter-spacing: 2%;
-
+  @include button;
   @media (max-width: 767px) {
     padding: 14px 30px;
   }
@@ -107,6 +97,7 @@
   flex-direction: column;
   gap: 20px;
 }
+
 .secondContent__title {
   display: flex;
   align-items: center;
@@ -117,11 +108,9 @@
   @media (max-width: 767px) {
     font-size: 11px;
     line-height: 14px;
-
     margin-top: 20px;
     margin-bottom: 15px;
   }
-
   &::before {
     content: '';
     margin-right: 20px;
@@ -129,7 +118,6 @@
     padding: 0.5px;
     background-color: #d3d3d3;
   }
-
   &::after {
     content: '';
     margin-left: 20px;
@@ -152,7 +140,6 @@
     margin-right: 60px;
     padding-bottom: 23px;
   }
-
   p {
     font-weight: 600;
     font-size: 14px;
