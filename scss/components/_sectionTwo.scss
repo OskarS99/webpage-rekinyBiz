@@ -21,7 +21,7 @@
   line-height: 67px;
   letter-spacing: 4%;
   @media (max-width: 767px) {
-    font-size: 28px;
+    font-size: 28px !important;
     line-height: 35px;
   }
 }
