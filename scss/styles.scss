@@ -1,11 +1,11 @@
 @import url('https://fonts.cdnfonts.com/css/source-sans-pro');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import 'variables';
-@import 'navigation';
-@import 'sectionOne';
-@import 'sectionTwo';
-@import 'sectionThree';
-@import 'footer';
+@import 'components/navigation';
+@import 'components/sectionOne';
+@import 'components/sectionTwo';
+@import 'components/sectionThree';
+@import 'components/footer';
 body {
   font-family: $sansPro-font;
   background: #f8f9fb;
