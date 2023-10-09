@@ -61,12 +61,11 @@
     font-size: 12px;
     line-height: 15px;
   }
-}
-
-.kwadrat {
-  @media (max-width: 767px) {
-    width: 7px;
-    height: 7px;
+  .square {
+    @media (max-width: 767px) {
+      width: 7px;
+      height: 7px;
+    }
   }
 }
 
@@ -162,6 +161,7 @@
 
 .image {
   object-fit: cover;
+  border-left: 4px solid rgba(59, 75, 220, 0.4);
   @media (max-width: 1500px) {
     max-width: 620px;
   }
