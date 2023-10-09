@@ -1,6 +1,6 @@
 # webpage-rekinyBiz
 
-![Page]()
+![Page](assets/website.png)
 
 ## Demo
 https://oskars99.github.io/webpage-rekinyBiz/
