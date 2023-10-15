@@ -1,4 +1,4 @@
-# webpage-rekinyBiz
+# webpage-rekinyBiznesu
 
 ![Page](assets/website.png)
 
