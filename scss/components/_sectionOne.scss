@@ -57,21 +57,29 @@
   object-fit: cover;
   border-right: 7px solid $blue;
   @media (max-width: 500px) {
-    max-height: 180px;
+    display: none;
+  }
+}
+
+.block__secondPhoto {
+  display: none;
+  @media (max-width: 500px) {
     object-fit: cover;
+    height: 180px;
     width: 100%;
+    display: block;
     border-bottom: 4px solid $blue;
     border-right: none;
   }
   @media (max-width: 380px) {
-    max-height: 120px;
+    height: 120px;
   }
 }
 
 .block__photo--size {
   border-right: 7px solid $blue;
   @media (max-width: 500px) {
-    max-height: 180px;
+    height: 180px;
     object-fit: cover;
     width: 100%;
     border-right: none;
@@ -194,6 +202,9 @@
   display: block;
   margin-bottom: 20px;
   width: 100%;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
   font-style: italic;
   &::placeholder {
     color: #d3d3d3;
@@ -218,6 +229,9 @@
 }
 
 .message {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
   @media (max-width: 767px) {
     font-size: 12px;
     line-height: 15px;
