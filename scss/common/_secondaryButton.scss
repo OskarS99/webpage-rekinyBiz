@@ -12,7 +12,7 @@
   line-height: 19px;
   letter-spacing: 0.02em;
   &::after {
-    content: url('/assets/vector.png');
+    content: url('../../assets/vector.png');
     position: absolute;
     right: -20px;
   }
@@ -40,7 +40,7 @@
   line-height: 19px;
   letter-spacing: 0.02em;
   &::after {
-    content: url('/assets/vector.png');
+    content: url('../../assets/vector.png');
     position: absolute;
     right: -20px;
   }
