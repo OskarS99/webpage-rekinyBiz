@@ -1,6 +1,6 @@
 # webpage-rekinyBiznesu
 
-![Page](assets/website.png)
+![Page](assets/)
 
 ## Demo
 [https://oskars99.github.io/webpage-rekinyBiz/](https://oskars99.github.io/webpage-rekinyBiznesu/)
