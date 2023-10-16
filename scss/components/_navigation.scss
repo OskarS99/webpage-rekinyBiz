@@ -51,6 +51,8 @@
 .active {
   font-weight: bold;
   border-bottom: 3px solid white;
+  transition: all;
+  transition-duration: 200ms;
   @media (max-width: 767px) {
     border-bottom: 3px solid black;
   }
@@ -78,11 +80,13 @@
   border-radius: 0 0 25px 25px;
   list-style: none;
   display: flex;
+  flex-direction: column;
   gap: 20px;
-  justify-content: center;
+
   position: fixed;
   top: 64px;
   left: 0;
+  height: 100%;
   width: 100%;
   padding: 30px;
   margin: 0;
